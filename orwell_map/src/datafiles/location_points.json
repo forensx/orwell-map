@@ -1,0 +1,54 @@
+[
+  {
+    "LOCATION_NAME": "Nogales",
+    "coordinates": [-110.9343, 31.3404]
+  },
+  {
+    "LOCATION_NAME": "Naco",
+    "coordinates": [-109.9481, 31.3354]
+  },
+  {
+    "LOCATION_NAME": "Cananea",
+    "coordinates": [-110.2892, 30.9898]
+  },
+  {
+    "LOCATION_NAME": "Hermosillo",
+    "coordinates": [-110.9559, 29.073]
+  },
+  {
+    "LOCATION_NAME": "Nogales",
+    "coordinates": [-110.9343, 31.3404]
+  },
+  {
+    "LOCATION_NAME": "Santa Rosa",
+    "coordinates": [-104.6825, 34.9387]
+  },
+  {
+    "LOCATION_NAME": "Guaymas",
+    "coordinates": [-110.9089, 27.9179]
+  },
+  {
+    "LOCATION_NAME": "Alamos",
+    "coordinates": [-108.9413, 27.0255]
+  },
+  {
+    "LOCATION_NAME": "Guamúchil",
+    "coordinates": [-108.0776, 25.4587]
+  },
+  {
+    "LOCATION_NAME": "Culiacán",
+    "coordinates": [-107.394, 24.8091]
+  },
+  {
+    "LOCATION_NAME": "Piaxtla",
+    "coordinates": [-106.4, 23.642]
+  },
+  {
+    "LOCATION_NAME": "Mazatlán",
+    "coordinates": [-106.4111, 23.2494]
+  },
+  {
+    "LOCATION_NAME": "Acaponeta",
+    "coordinates": [-105.3609, 22.4937]
+  }
+]
