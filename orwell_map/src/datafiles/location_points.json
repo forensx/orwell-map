@@ -1,54 +1,54 @@
 [
   {
-    "LOCATION_NAME": "Nogales",
-    "coordinates": [-110.9343, 31.3404]
+    "LOCATION_NAME": "Victory Mansions",
+    "coordinates": [51.532005, -0.177331]
   },
   {
-    "LOCATION_NAME": "Naco",
-    "coordinates": [-109.9481, 31.3354]
+    "LOCATION_NAME": "Ministry of Truth",
+    "coordinates": [51.515419, -0.141099]
   },
   {
-    "LOCATION_NAME": "Cananea",
-    "coordinates": [-110.2892, 30.9898]
+    "LOCATION_NAME": "Ministry of Love",
+    "coordinates": [51.527018, -0.058090]
   },
   {
-    "LOCATION_NAME": "Hermosillo",
-    "coordinates": [-110.9559, 29.073]
+    "LOCATION_NAME": "Victory Square",
+    "coordinates": [51.5080, -0.1281]
   },
   {
-    "LOCATION_NAME": "Nogales",
-    "coordinates": [-110.9343, 31.3404]
+    "LOCATION_NAME": "Big Brother Statue",
+    "coordinates": [51.5078, -0.1279]
   },
   {
-    "LOCATION_NAME": "Santa Rosa",
-    "coordinates": [-104.6825, 34.9387]
+    "LOCATION_NAME": "Oliver Cromwell Statue",
+    "coordinates": [51.50838, -0.12759]
   },
   {
-    "LOCATION_NAME": "Guaymas",
-    "coordinates": [-110.9089, 27.9179]
+    "LOCATION_NAME": "Museum of War Propaganda",
+    "coordinates": [51.505331312, -0.122832842]
   },
   {
-    "LOCATION_NAME": "Alamos",
-    "coordinates": [-108.9413, 27.0255]
+    "LOCATION_NAME": "Upper Class Houses",
+    "coordinates": [51.5313, -0.1570]
   },
   {
-    "LOCATION_NAME": "Guamúchil",
-    "coordinates": [-108.0776, 25.4587]
+    "LOCATION_NAME": "Charrington's Shop",
+    "coordinates": [51.513525, -0.148506]
   },
   {
-    "LOCATION_NAME": "Culiacán",
-    "coordinates": [-107.394, 24.8091]
+    "LOCATION_NAME": "Prole Pub",
+    "coordinates": [51.516848, -0.141420]
   },
   {
-    "LOCATION_NAME": "Piaxtla",
-    "coordinates": [-106.4, 23.642]
+    "LOCATION_NAME": "Chestnut Tree Cafe",
+    "coordinates": [51.5108, -0.1387]
   },
   {
-    "LOCATION_NAME": "Mazatlán",
-    "coordinates": [-106.4111, 23.2494]
+    "LOCATION_NAME": "Julia and Winston's Meeting Place",
+    "coordinates": [51.515430, -0.175409]
   },
   {
-    "LOCATION_NAME": "Acaponeta",
-    "coordinates": [-105.3609, 22.4937]
+    "LOCATION_NAME": "Winston's Path/Pond With Fish",
+    "coordinates": [51.5073, -0.1657]
   }
 ]
