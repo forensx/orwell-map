@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/orwell-map/static/css/main.6efa6943.chunk.css",
-    "main.js": "/orwell-map/static/js/main.5f3c05a8.chunk.js",
-    "main.js.map": "/orwell-map/static/js/main.5f3c05a8.chunk.js.map",
+    "main.js": "/orwell-map/static/js/main.2163ea44.chunk.js",
+    "main.js.map": "/orwell-map/static/js/main.2163ea44.chunk.js.map",
     "runtime-main.js": "/orwell-map/static/js/runtime-main.164995b6.js",
     "runtime-main.js.map": "/orwell-map/static/js/runtime-main.164995b6.js.map",
-    "static/js/2.195eae62.chunk.js": "/orwell-map/static/js/2.195eae62.chunk.js",
-    "static/js/2.195eae62.chunk.js.map": "/orwell-map/static/js/2.195eae62.chunk.js.map",
+    "static/js/2.0e2e32fd.chunk.js": "/orwell-map/static/js/2.0e2e32fd.chunk.js",
+    "static/js/2.0e2e32fd.chunk.js.map": "/orwell-map/static/js/2.0e2e32fd.chunk.js.map",
     "index.html": "/orwell-map/index.html",
-    "precache-manifest.ae0e8729a8c2016636f871a20275ae74.js": "/orwell-map/precache-manifest.ae0e8729a8c2016636f871a20275ae74.js",
+    "precache-manifest.52b89af58576817e81d307f766430071.js": "/orwell-map/precache-manifest.52b89af58576817e81d307f766430071.js",
     "service-worker.js": "/orwell-map/service-worker.js",
     "static/css/main.6efa6943.chunk.css.map": "/orwell-map/static/css/main.6efa6943.chunk.css.map",
-    "static/js/2.195eae62.chunk.js.LICENSE.txt": "/orwell-map/static/js/2.195eae62.chunk.js.LICENSE.txt"
+    "static/js/2.0e2e32fd.chunk.js.LICENSE.txt": "/orwell-map/static/js/2.0e2e32fd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.164995b6.js",
-    "static/js/2.195eae62.chunk.js",
+    "static/js/2.0e2e32fd.chunk.js",
     "static/css/main.6efa6943.chunk.css",
-    "static/js/main.5f3c05a8.chunk.js"
+    "static/js/main.2163ea44.chunk.js"
   ]
 }

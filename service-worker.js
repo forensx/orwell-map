@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/orwell-map/precache-manifest.ae0e8729a8c2016636f871a20275ae74.js"
+  "/orwell-map/precache-manifest.52b89af58576817e81d307f766430071.js"
 );
 
 self.addEventListener('message', (event) => {

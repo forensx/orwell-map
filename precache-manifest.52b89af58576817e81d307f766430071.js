@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "40d370f8243ca75e4c8974eed225fabc",
+    "revision": "105c5c77cc5dcd05d2dc5029fa3dc4f1",
     "url": "/orwell-map/index.html"
   },
   {
-    "revision": "bc5cfe629972711bb54b",
+    "revision": "f4282d49d4badd38a0aa",
     "url": "/orwell-map/static/css/main.6efa6943.chunk.css"
   },
   {
-    "revision": "f66808ef6a3b37184f81",
-    "url": "/orwell-map/static/js/2.195eae62.chunk.js"
+    "revision": "864b4039b7885caf0880",
+    "url": "/orwell-map/static/js/2.0e2e32fd.chunk.js"
   },
   {
     "revision": "278573b4c188b9052aff83eaf7bb2ca3",
-    "url": "/orwell-map/static/js/2.195eae62.chunk.js.LICENSE.txt"
+    "url": "/orwell-map/static/js/2.0e2e32fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bc5cfe629972711bb54b",
-    "url": "/orwell-map/static/js/main.5f3c05a8.chunk.js"
+    "revision": "f4282d49d4badd38a0aa",
+    "url": "/orwell-map/static/js/main.2163ea44.chunk.js"
   },
   {
     "revision": "6832e8190dd21ddaf050",
