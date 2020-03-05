@@ -1,50 +1,54 @@
 [
   {
     "LOCATION_NAME": "Victory Mansions",
-    "coordinates": [-110.9343, 31.3404]
+    "coordinates": [51.532005, -0.177331]
   },
   {
     "LOCATION_NAME": "Ministry of Truth",
-    "coordinates": [-109.9481, 31.3354]
+    "coordinates": [51.515419, -0.141099]
+  },
+  {
+    "LOCATION_NAME": "Ministry of Love",
+    "coordinates": [51.527018, -0.058090]
   },
   {
     "LOCATION_NAME": "Victory Square",
-    "coordinates": [-110.2892, 30.9898]
+    "coordinates": [51.5080, -0.1281]
   },
   {
     "LOCATION_NAME": "Big Brother Statue",
-    "coordinates": [-110.9559, 29.073]
+    "coordinates": [51.5078, -0.1279]
   },
   {
     "LOCATION_NAME": "Oliver Cromwell Statue",
-    "coordinates": [-110.9343, 31.3404]
+    "coordinates": [51.50838, -0.12759]
   },
   {
     "LOCATION_NAME": "Museum of War Propaganda",
-    "coordinates": [-104.6825, 34.9387]
+    "coordinates": [51.505331312, -0.122832842]
   },
   {
     "LOCATION_NAME": "Upper Class Houses",
-    "coordinates": [-110.9089, 27.9179]
+    "coordinates": [51.5313, -0.1570]
   },
   {
     "LOCATION_NAME": "Charrington's Shop",
-    "coordinates": [-108.9413, 27.0255]
+    "coordinates": [51.513525, -0.148506]
   },
   {
     "LOCATION_NAME": "Prole Pub",
-    "coordinates": [-108.0776, 25.4587]
+    "coordinates": [51.516848, -0.141420]
   },
   {
     "LOCATION_NAME": "Chestnut Tree Cafe",
-    "coordinates": [-107.394, 24.8091]
+    "coordinates": [51.5108, -0.1387]
   },
   {
     "LOCATION_NAME": "Julia and Winston's Meeting Place",
-    "coordinates": [-106.4, 23.642]
+    "coordinates": [51.515430, -0.175409]
   },
   {
     "LOCATION_NAME": "Winston's Path/Pond With Fish",
-    "coordinates": [-106.4111, 23.2494]
+    "coordinates": [51.5073, -0.1657]
   }
 ]
