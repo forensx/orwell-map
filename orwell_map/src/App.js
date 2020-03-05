@@ -1,11 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, {Component} from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+import Map from './Components/Map';
 
 function App() {
   return (
-    <div className="App">
-      <p>All boilerplate code removed</p>
-    </div>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <div className = "App">
+          <Route exact path = {process.env.PUBLIC_URL + '/'} component = {Map} />
+        </div>
+      </BrowserRouter>
   );
 }
 
