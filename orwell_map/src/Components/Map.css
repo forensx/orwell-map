@@ -1,0 +1,24 @@
+.controlPanel {
+    z-index: 999;
+    position: fixed;
+    width: 15%;
+    height: 25%;
+    right: 1%;
+    top: 2%;
+    background: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 4px;
+    grid-row-gap: 8px;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20;
+  }
+
+  .controlPanel:hover{
+    box-shadow: 0 14px 14px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
