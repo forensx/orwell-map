@@ -1,15 +1,19 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route } from 'react-router-dom';
 import Map from './Components/Map';
 
-function App() {
-  return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-        <div className = "App">
-          <Route exact path = {process.env.PUBLIC_URL + '/'} component = {Map} />
+
+class App extends Component {
+
+  render() {
+    return (
+      <HashRouter basename="/">
+        <div className = "App">  
+          <Route exact path="/" component={Map} />
         </div>
-      </BrowserRouter>
-  );
+      </HashRouter>
+    );
+  }
 }
 
-export default App;
+export default App
