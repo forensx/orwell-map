@@ -1,54 +1,50 @@
 [
   {
-    "LOCATION_NAME": "Nogales",
+    "LOCATION_NAME": "Victory Mansions",
     "coordinates": [-110.9343, 31.3404]
   },
   {
-    "LOCATION_NAME": "Naco",
+    "LOCATION_NAME": "Ministry of Truth",
     "coordinates": [-109.9481, 31.3354]
   },
   {
-    "LOCATION_NAME": "Cananea",
+    "LOCATION_NAME": "Victory Square",
     "coordinates": [-110.2892, 30.9898]
   },
   {
-    "LOCATION_NAME": "Hermosillo",
+    "LOCATION_NAME": "Big Brother Statue",
     "coordinates": [-110.9559, 29.073]
   },
   {
-    "LOCATION_NAME": "Nogales",
+    "LOCATION_NAME": "Oliver Cromwell Statue",
     "coordinates": [-110.9343, 31.3404]
   },
   {
-    "LOCATION_NAME": "Santa Rosa",
+    "LOCATION_NAME": "Museum of War Propaganda",
     "coordinates": [-104.6825, 34.9387]
   },
   {
-    "LOCATION_NAME": "Guaymas",
+    "LOCATION_NAME": "Upper Class Houses",
     "coordinates": [-110.9089, 27.9179]
   },
   {
-    "LOCATION_NAME": "Alamos",
+    "LOCATION_NAME": "Charrington's Shop",
     "coordinates": [-108.9413, 27.0255]
   },
   {
-    "LOCATION_NAME": "Guamúchil",
+    "LOCATION_NAME": "Prole Pub",
     "coordinates": [-108.0776, 25.4587]
   },
   {
-    "LOCATION_NAME": "Culiacán",
+    "LOCATION_NAME": "Chestnut Tree Cafe",
     "coordinates": [-107.394, 24.8091]
   },
   {
-    "LOCATION_NAME": "Piaxtla",
+    "LOCATION_NAME": "Julia and Winston's Meeting Place",
     "coordinates": [-106.4, 23.642]
   },
   {
-    "LOCATION_NAME": "Mazatlán",
+    "LOCATION_NAME": "Winston's Path/Pond With Fish",
     "coordinates": [-106.4111, 23.2494]
-  },
-  {
-    "LOCATION_NAME": "Acaponeta",
-    "coordinates": [-105.3609, 22.4937]
   }
 ]
