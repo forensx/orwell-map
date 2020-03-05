@@ -4,9 +4,27 @@ import { ScatterplotLayer, TextLayer, PolygonLayer } from '@deck.gl/layers';
 import { StaticMap } from 'react-map-gl';
 import "./Map.css";
 
+
 // import data 
 import locations from "../datafiles/location_points.json";
 import factions from "../datafiles/county_polygons.json";
+
+
+// dictonary for customization such as colors
+var themes = {
+    text_color: "#FFFFFF",
+
+    // location themes
+    location_color: [0, 0, 0],
+    location_size: 10, // scale, min, max
+    location_opacity: 0.4,
+
+    // polygon themes
+    poly_outline: [0, 0, 0],
+    poly_linewidth: 250,
+};
+
+
 
 // set mapbox token
 const MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoibWV0YWxtdWxpc2hhMjA1IiwiYSI6ImNqa3p6MnMxZzB6aXMzd3FqNzIydGQ1eWQifQ.Q7-btpPLCXJol5KEae2fjA";
@@ -48,7 +66,7 @@ class Map extends React.Component {
 
         }
         var toReturn = hoveredObject && (
-            <div className="tooltip" style={{ position: 'absolute', zIndex: 1, pointerEvents: 'none', left: pointerX, top: pointerY }}>
+            <div className="tooltip" style={{ position: 'absolute', zIndex: 1, pointerEvents: 'none', left: pointerX+10, top: pointerY, color: themes.text_color }}>
                 {message}
             </div>
         )
@@ -61,12 +79,12 @@ class Map extends React.Component {
                 id: 'locations',
                 data: locations,
                 pickable: true,
-                opacity: 0.4,
-                radiusScale: 15,
-                radiusMinPixels: 10,
-                radiusMaxPixels: 20,
+                opacity: themes.location_size,
+                radiusScale: themes.location_size,
+                radiusMinPixels: 5,
+                radiusMaxPixels: 15,
                 getPosition: d => d.coordinates,
-                getFillColor: d => [0, 0, 0],
+                getFillColor: d => themes.location_color,
                 onHover: info => this.setState({
                     hoveredObject: info.object,
                     pointerX: info.x,
@@ -84,9 +102,9 @@ class Map extends React.Component {
                 wireframe: true,
                 lineWidthMinPixels: 1,
                 getPolygon: d => d.contours,
-                getLineColor: [0, 0, 0],
+                getLineColor: themes.poly_outline,
                 getFillColor: d => d.COLOR,
-                getLineWidth: 250,
+                getLineWidth: themes.poly_linewidth,
                 onHover: info => this.setState({
                     hoveredObject: info.object,
                     pointerX: info.x,
