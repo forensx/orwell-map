@@ -9,7 +9,7 @@ import locations from "../datafiles/location_points.json";
 import factions from "../datafiles/county_polygons.json";
 
 // set mapbox token
-const MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoicGFudDIwMDIiLCJhIjoiY2prenlwb2ZtMHlnMjNxbW1ld3VxYWZ4cCJ9.rOb8DhCzsysBIw69MxyWKg";
+const MAPBOX_ACCESS_TOKEN = "pk.eyJ1IjoibWV0YWxtdWxpc2hhMjA1IiwiYSI6ImNqa3p6MnMxZzB6aXMzd3FqNzIydGQ1eWQifQ.Q7-btpPLCXJol5KEae2fjA";
 
 // Initial viewport settings
 const initialViewState = {
@@ -84,8 +84,8 @@ class Map extends React.Component {
                 wireframe: true,
                 lineWidthMinPixels: 1,
                 getPolygon: d => d.contours,
-                getLineColor: [80, 80, 80],
-                getFillColor: [80, 80, 80],
+                getLineColor: [0, 0, 0],
+                getFillColor: d => d.COLOR,
                 getLineWidth: 250,
                 onHover: info => this.setState({
                     hoveredObject: info.object,
@@ -93,7 +93,6 @@ class Map extends React.Component {
                     pointerY: info.y,
                     hoverType: "polygon",
                 })
-                
             })
         ];
         return (
@@ -105,7 +104,7 @@ class Map extends React.Component {
                     layers={layers}
                 >
                     <StaticMap mapboxApiAccessToken={MAPBOX_ACCESS_TOKEN}
-                        mapStyle="mapbox://styles/pant2002/ck2dfxbwb1dnj1cqlyrw13l9l" />
+                        mapStyle="mapbox://styles/metalmulisha205/ck7e0k6qb02lu1iobx3blg1en" />
                     {this._renderTooltip()}
                 </DeckGL>
             </div>
